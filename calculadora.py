@@ -11,3 +11,12 @@ def subtracao (num1, num2):
     return subtracao
 
 print("Resultado da subtração: ", subtracao(89,33 ))
+
+def divisao (num1, num2):
+    if num2 == 0:
+        return "Não é possível dividir por zero!"
+    else:
+        divisao = num1 / num2
+        return divisao
+
+print("Resultado da Divisão: ", divisao(90, 3 ))
