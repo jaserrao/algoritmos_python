@@ -1,10 +1,12 @@
-def verificar_par_impar(numero):
-    if numero % 2 == 0:
-        return "Par"
-    else:
-        return "Ímpar"
+num = int(input("Digite um número inteiro:"))
 
+if num % 2 == 0:
+    print(f'O número {num} é PAR!')
+else:
+    print(f'O número {num} é ÍMPAR!')
 
-# --- Exemplo de uso ---
-resultado = verificar_par_impar(7)
-print(f"O número é: {resultado}")
+#Comandos Git PARA SALVAR ESTE ALGORITMO:
+#git status
+#git add .
+#git commit -m "Adicionado algoritmo par ou ímpar"
+#git push
